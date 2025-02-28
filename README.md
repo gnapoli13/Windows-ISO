@@ -47,7 +47,7 @@ dism /Unmount-Image /MountDir:C:\Mount /Commit
 8) Crea la nuova ISO 
 
 ```bash
-oscdimg -m -o -u2 -bC:\Win\boot\etfsboot.com C:\Win C:\WinNaple.iso  
+oscdimg -m -o -u2 -udfver102 -bootdata:2#p0,e,bC:\Win\boot\etfsboot.com#pEF,e,bC:\Win\efi\microsoft\boot\efisys.bin C:\Win C:\WinNaple.iso
 ```
 
 ## Attenzione
