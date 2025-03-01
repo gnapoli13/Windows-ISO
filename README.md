@@ -53,3 +53,7 @@ oscdimg -m -o -u2 -udfver102 -bootdata:2#p0,e,bC:\Win\boot\etfsboot.com#pEF,e,bC
 ## Attenzione
 
 L'ultimo comando utilizza oscdimg. Bisogna aggiungere al Path delle variabili d'ambiente la cartella che contiene oscdimg per poterlo usare
+
+### Extra
+
+Aggiungi il file ei.cfg nella cartella sources
